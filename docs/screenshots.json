@@ -1,0 +1,6 @@
+[
+  {"file":"01-cpu.png","caption":"The CPU dropdown shows total load split into user and system time, a live history chart, per-core bars, load average and the busiest processes.","alt":"ResourceGlanceBar CPU dropdown with load chart and top processes"},
+  {"file":"02-memory.png","caption":"The Memory dropdown shows used percentage, kernel memory pressure, a full breakdown of app, wired, compressed and cached memory, and the top memory users.","alt":"ResourceGlanceBar Memory dropdown with pressure status and breakdown"},
+  {"file":"03-disk.png","caption":"The Disk dropdown shows free space on the startup volume, capacity and usage, plus a live read/write throughput chart.","alt":"ResourceGlanceBar Disk dropdown with free space and throughput chart"},
+  {"file":"04-settings.png","caption":"Settings let you choose which menu bar items to show, the update interval, warning thresholds, a color theme and launch at login.","alt":"ResourceGlanceBar Settings window"}
+]

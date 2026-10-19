@@ -1,0 +1,60 @@
+{
+  "seo_title": "Menu bar system monitor for macOS",
+  "seo_description": "ResourceGlanceBar is a free, open-source macOS menu bar monitor for CPU load, memory pressure and disk space, with detailed dropdowns. No telemetry.",
+  "hero_title_line1": "Your Mac's vitals,",
+  "hero_title_accent": "always in view.",
+  "hero_sub": "Live CPU, memory and disk meters sit in your menu bar. Click any one for per-core load, a memory breakdown, disk throughput and the busiest processes.",
+  "features_title": "Three resources, done well.",
+  "features_sub": "Each meter is its own menu bar item, and each opens a dropdown with the detail Activity Monitor buries.",
+  "features": [
+    {
+      "icon": "cpu",
+      "title": "CPU at a glance",
+      "desc": "A tiny graph of the last 20 samples or a percentage in the menu bar. The dropdown splits user and system load and adds per-core bars, load average and the five busiest processes."
+    },
+    {
+      "icon": "bolt",
+      "title": "Memory pressure, not just usage",
+      "desc": "A status dot follows kernel memory pressure and your own threshold. The dropdown breaks memory into app, wired, compressed, cached and free, plus swap used."
+    },
+    {
+      "icon": "folder",
+      "title": "Disk space and throughput",
+      "desc": "See free space on the startup volume in the menu bar. Open it for capacity, used and free, and a live read/write throughput chart."
+    },
+    {
+      "icon": "sliders",
+      "title": "Settings that stay simple",
+      "desc": "Toggle each menu bar item, set the update interval to 1, 2 or 5 seconds, tune warning thresholds, pick Classic, Ocean or Mono, and launch at login."
+    },
+    {
+      "icon": "shield",
+      "title": "Quit Process, with confirmation",
+      "desc": "Each listed process has a Quit Process button that asks first, then sends a terminate request. It is disabled for root-owned processes and for the app itself."
+    },
+    {
+      "icon": "clock",
+      "title": "Light on resources",
+      "desc": "Updates slow to every 5 seconds while no dropdown is open, and samples after a long gap such as waking from sleep are discarded. Universal binary, no Dock icon."
+    }
+  ],
+  "permissions_step": "No special permissions are required.",
+  "faq": [
+    {
+      "q": "Is ResourceGlanceBar really free and open source?",
+      "a": "Yes. It is MIT licensed, free to use, and the full source is on GitHub. If it is useful to you, there is a Support button in Settings and in each dropdown."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None. It does not ask for Accessibility, Screen Recording or any other privacy permission. It reads standard system counters and lists only processes your user can see. Launch at login is optional and uses a standard login item."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Nowhere beyond your Mac. There is no server, account or telemetry. The only thing saved is your settings, such as interval, thresholds and theme, in the app's standard macOS preferences."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to approve it, or build it yourself from source with Xcode."
+    }
+  ]
+}

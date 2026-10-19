@@ -1,5 +1,7 @@
 # ResourceGlanceBar
 
+**🌐 Website:** [turhe123.github.io/resource-glance-bar](https://turhe123.github.io/resource-glance-bar/)
+
 CPU load, memory pressure and disk space as tiny live meters in the menu bar with a detailed dropdown.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,21 @@ ResourceGlanceBar is a free, open-source, 100% native, backend-free alternative 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-cpu.png" alt="ResourceGlanceBar CPU dropdown with load chart and top processes" width="720"></p>
+
+<p align="center"><em>The CPU dropdown shows total load split into user and system time, a live history chart, per-core bars, load average and the busiest processes.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-memory.png" alt="ResourceGlanceBar Memory dropdown with pressure status and breakdown" width="560"></p>
+
+<p align="center"><em>The Memory dropdown shows used percentage, kernel memory pressure, a full breakdown of app, wired, compressed and cached memory, and the top memory users.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-disk.png" alt="ResourceGlanceBar Disk dropdown with free space and throughput chart" width="560"></p>
+
+<p align="center"><em>The Disk dropdown shows free space on the startup volume, capacity and usage, plus a live read/write throughput chart.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-settings.png" alt="ResourceGlanceBar Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you choose which menu bar items to show, the update interval, warning thresholds, a color theme and launch at login.</em></p>
 
 ## Install
 
